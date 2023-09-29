@@ -5,7 +5,7 @@ import seaborn as sd
 import matplotlib.pyplot as plt
 
 
-df_walmart=pd.read_csv('/Users/sahanamanjunath/Downloads/WALMART_SALES_DATA.csv')
+df_walmart=pd.read_csv('WALMART_SALES_DATA.csv')
 
 st.set_page_config(page_title="Walmart Sales Analysis", layout="wide")
 st.title('Walmart Sales Analysis')
