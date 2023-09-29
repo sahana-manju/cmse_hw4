@@ -35,7 +35,7 @@ col4.pyplot(sns.scatterplot(data=df_walmart, x='Fuel_Price', y='Weekly_Sales').f
 
 col5,col6=st.columns([1,1])
 
-plt.figure(figsize=(15,6))
+plt.figure(figsize=(6,6))
 col5.markdown('Holiday Season with Weekly Sales using cat plot')
 col5.pyplot(sns.catplot(df_walmart[0:1000], x="Holiday_Flag", y="Weekly_Sales",kind="swarm").figure)
 
